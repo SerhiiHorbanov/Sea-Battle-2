@@ -15,7 +15,7 @@ struct Tile
     public readonly TileType Type;
     public bool WasShot { get; private set; }
 
-    public Tile(TileType type, bool wasShot)
+    public Tile(TileType type, bool wasShot = false)
     {
         Type = type;
         WasShot = wasShot;
